@@ -17,7 +17,7 @@ const Example = (props) =>
 
   return (
     <div>
-      <Nav tabs style={{ maxWidth: "100%" }}>
+      <Nav tabs style={{ maxWidth: "100%" , marginLeft:"0px" }}>
         <NavItem style={{ width: "26%" }} className="color">
           <NavLink
             className={classnames({ active: activeTab === '1' })}

@@ -33,16 +33,16 @@ const Example = (props) =>
           </NavLink>
         </NavItem>
       </Nav>
-      <TabContent activeTab={activeTab} style={{ marginLeft: "15px" }}>
+      <TabContent activeTab={activeTab}>
         <TabPane tabId="1" >
-          <Row style={{ maxWidth: "100%" }}>
+          <Row style={{ maxWidth: "100%" , marginLeft:"0px"}}>
             <Col sm="12">
               Submission
             </Col>
           </Row>
         </TabPane>
         <TabPane tabId="2">
-          <Row style={{ maxWidth: "100%" }}>
+          <Row style={{ maxWidth: "100%" , marginLeft:"0px"}}>
             <div className="flex">
               <div className="w100">
                 <Tab_DMY />

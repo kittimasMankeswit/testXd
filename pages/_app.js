@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import Navnar from './../layouts/_app/index'
-import styles from '../styles/Home.module.css'
 function MyApp ({ Component, pageProps })
 {
   return <div className="mobile">
