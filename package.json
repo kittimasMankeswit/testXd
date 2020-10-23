@@ -9,9 +9,19 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "bootstrap": "^4.5.3",
+    "chart.js": "^2.9.4",
     "next": "9.5.3",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "rc-datepicker": "^5.0.16",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-date-picker": "^5.1.0",
+    "react-chartjs-2": "^2.10.0",
+    "react-date-range": "^1.0.0-beta",
+    "react-date-range-next": "^0.10.5",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^16.14.0",
+    "reactstrap": "^8.6.0"
   },
   "engines": {
     "node": "12.16.3",
