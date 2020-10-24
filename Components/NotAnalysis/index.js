@@ -175,7 +175,7 @@ export default function Home (
           .cards
           {
             width: 100%;
-            padding: 8px 8px;
+            padding: 5px 8px;
           }
           .tagA
           {
@@ -273,7 +273,7 @@ export default function Home (
           }
           .containers
           {
-            padding: 8px; 
+            padding:0 8px; 
           }
           .active
           {
